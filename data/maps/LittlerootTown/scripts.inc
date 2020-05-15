@@ -1065,3 +1065,10 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab: @ 81E8DA2
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_EventScript_PuddleSign::
+	msgbox LittlerootTown_Text_PuddleSign, MSGBOX_SIGN
+	end
+
+LittlerootTown_Text_PuddleSign:
+	.string "Welcome to the world famous Littleroot\n"
+	.string "Town puddle$"
